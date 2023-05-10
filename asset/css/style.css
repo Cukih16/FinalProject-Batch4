@@ -1,0 +1,181 @@
+#header {
+  background-image: url("/asset/image/kometgalaksi.jpg");
+  position: relative;
+    z-index: 100;
+    width: 100%;
+}
+
+.title {
+  font-family: 'audiowide', cursive;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.description-box {
+  font-family: 'audiowide', cursive;
+}
+
+.card {
+  max-height: 500px;
+  --bs-card-height: 500px;
+  display: flex;
+}
+
+.card-body {
+  flex: 5;
+}
+
+.card-img-top {
+  flex: 1;
+  align-self: center;
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: fill;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'alfa slab one', cursive;
+  background: -webkit-linear-gradient(80deg, white, gold, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.nav-item {
+  font-weight: bold;
+  --bs-nav-link-color: rgb(179, 97, 34);
+}
+
+.container {
+  display: flex;
+  /* or inline-flex */
+}
+
+#home_about {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("/asset/image/bg-putih-est.jpg")
+}
+
+#home {
+  flex: 2;
+  padding: 5px;
+}
+
+#about {
+  flex: 2;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slider-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.slider-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider-nav button {
+  width: 10px;
+  height: 10px;
+  background-color: #999;
+  border: none;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-nav button.active {
+  background-color: #333;
+}
+
+#education {
+background-image: url("/asset/image/soft-white.jpg");
+}
+
+.education-item {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#skills .title{
+  width: 250px;
+  overflow: hidden;
+}
+
+#skills li{
+  font-weight: bold;
+}
+
+/*warna*/
+.merah {
+  color:crimson
+}
+.kuning {
+  color: goldenrod;
+}
+.hijau{
+  color: rgb(32, 198, 32);
+}
+.biru {
+  color: darkblue;
+}
+.ungu {
+  color: purple
+}
+
+#interest{
+  animation: blink 2s infinite;
+  text-align: center;
+}
+.interest-box .int-box {
+  border: 3px solid #1E5039;
+  border-radius: 24px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.award-item img{
+  max-width: 360px;
+  max-height: 360px;
+}
+.awardtitle{
+  margin-top: 20px;
+}
+.award-item {
+  border: 3px solid rgb(158, 158, 33);
+  border-radius: 24px;
+  padding: 20px;
+  margin-top: 20px;
+
+}
